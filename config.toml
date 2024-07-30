@@ -20,5 +20,5 @@ j="move_line_up"
 
 [editor.cursor-shape]
 insert = "bar"
-normal = "block"
+normal = "bar"
 select = "underline"
