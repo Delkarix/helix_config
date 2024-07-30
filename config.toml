@@ -1,0 +1,25 @@
+[keys.normal]
+k="move_visual_line_down"
+j="move_visual_line_up"
+
+[keys.normal."C-w"]
+C-k="jump_view_down"
+k="jump_view_down"
+K="swap_view_down"
+C-j="jump_view_down"
+j="jump_view_up"
+J="swap_view_up"
+
+[keys.normal.z]
+k="scroll_down"
+j="scroll_up"
+
+[keys.normal.g]
+k="move_line_down"
+j="move_line_up"
+
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
