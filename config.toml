@@ -18,7 +18,6 @@ j="scroll_up"
 k="move_line_down"
 j="move_line_up"
 
-
 [editor.cursor-shape]
 insert = "bar"
 normal = "block"
