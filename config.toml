@@ -1,3 +1,5 @@
+theme="dark_plus"
+
 [keys.normal]
 k="move_line_down"
 j="move_line_up"
@@ -40,7 +42,14 @@ j="scroll_up"
 k="move_line_down"
 j="move_line_up"
 
+[editor]
+true-color=true
+shell=["fish", "-c"]
+
 [editor.cursor-shape]
 insert = "bar"
 normal = "bar"
 select = "underline"
+
+[editor.file-picker]
+hidden=false
